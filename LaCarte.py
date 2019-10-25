@@ -1,4 +1,7 @@
-from dico import villes
+from dico import villes #on importe notre librairie
+
+#On initialise
+
 def depart():
 
     listeVilles = []
@@ -7,7 +10,12 @@ def depart():
     tempsTotal = 0 
     trajetTotal = 0
 
-print("Choisissez votre ville de départ et votre arrivé, puis appuyez sur ENTRER")
+#On demande le trajet que l'on souhaite effectuer
+
+start = input("Choisissez votre ville de départ : ")
+end = input("Choisissez votre ville d'arrivée : ")
+
+if start == end = input("Ben t'es déjà arrivé ! GG !")
 
     while choixVille != '' :
-        print('Ville{} :
+        
