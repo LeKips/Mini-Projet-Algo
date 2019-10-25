@@ -15,7 +15,12 @@ def depart():
 start = input("Choisissez votre ville de départ : ")
 end = input("Choisissez votre ville d'arrivée : ")
 
-if start == end = input("Ben t'es déjà arrivé ! GG !")
+#Dans le cas où on est pas très malin
+
+if start == end :
+    print("Ben t'es déjà arrivé ! GG !")
+
+#
 
     while choixVille != '' :
         
